@@ -1,0 +1,55 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+}
+#card {
+	border: 1px solid rgb(211,211,211);
+	width: 350px;
+	box-shadow: 5px 5px rgba(211,211,211,0.5);
+}
+
+h3 {
+	font-size: x-large;
+}
+
+img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid rgba(211,211,211,0.5);
+}
+
+.card-detail {
+	border: 1px solid rgba(211,211,211,0.5);
+	width: 300px;
+	font-size: medium;
+}
+
+.card-detail p {
+	padding: 10px;
+	color: #808080;
+}
+
+h3,.card-detail, img {
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style: none outside none; 
+	margin: 0; 
+	padding: 0; 
+	text-align: left;
+}
+li {
+	margin: 0 10px; 
+    display: block;
+	color: #808080;
+}
+
+.list li {
+	list-style-type: none;
+}
+
+.card-detail span {
+	font-weight: bold;
+	color: #000000;
+}
